@@ -1,0 +1,15 @@
+{
+  "type": "java",
+  "testFiles": [
+    {
+      "path": "src/test/java/CustomExceptionTest.java",
+      "testCases": [
+        {
+          "methodName": "customExceptionTest1",
+          "label": "Verify throwCustomException throws a CustomException",
+          "description": "Checks that throwCustomException() halts execution in the try block and throws an exception of type CustomException, causing the catch block to execute."
+        }
+      ]
+    }
+  ]
+}
